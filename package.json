@@ -1,0 +1,28 @@
+{
+  "name": "mqtt-broker",
+  "version": "1.0.0",
+  "description": "简单可用的mqtt的代理服务",
+  "main": "index.js",
+  "scripts": {
+    "broker": "node broker.js",
+    "pub": "node client_pub.js",
+    "sub": "node client_sub.js",
+    "c1": "node client_1.js",
+    "c2": "node client_2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YpchenLove/mqtt-broker.git"
+  },
+  "keywords": [],
+  "author": "Ypchen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YpchenLove/mqtt-broker/issues"
+  },
+  "homepage": "https://github.com/YpchenLove/mqtt-broker#readme",
+  "dependencies": {
+    "aedes": "^0.46.1",
+    "mqtt": "^4.2.8"
+  }
+}
