@@ -1,7 +1,7 @@
 var mqtt = require('mqtt')
 var client = mqtt.connect('mqtt://localhost:18080')
 
-// 连接后订阅temp topic
+// 连接后订阅c1 topic
 client.on('connect', (e) => {
   console.log('success connect mqtt server')
   client.subscribe('c1', function (err) {
